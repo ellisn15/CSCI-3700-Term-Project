@@ -60,7 +60,9 @@ It is data intensive because it handles huge amounts of data - namely songs. Wit
 
 ## Identification and Documentation of Transactions
 
+Transactions:
 
+- 
 
 ## Identification and Documentation of Database Queries
 
@@ -113,3 +115,5 @@ https://www.overleaf.com/project/5c00a7e979a7e34b62175f7c
 
 
 ## Appendix C Data Creation and Loading
+
+[billboard_lyrics_1964-2015.csv](https://github.com/ellisn15/CSCI-3700-Term-Project/blob/master/Data%20Files/billboard_lyrics_1964-2015.csv)
