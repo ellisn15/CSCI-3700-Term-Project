@@ -32,7 +32,19 @@ Nicholas Ellis
 
 ## Data-intensive Application Selection
 
+**What are its characteristics?** 
 
+A record company needs a way to manage its music inventory. 
+
+**What makes it data intensive?**
+
+It is data intensive because it handles huge amounts of data - namely songs. With songs constantly being added to the 
+
+**Who is the sponser?**
+
+**Who are the end users?**
+
+**How will they benefit?**
 
 ## Identification and Documentation of Use-cases
 
@@ -91,6 +103,8 @@ Nicholas Ellis
 
 
 ## Appendix A Code Listings
+
+https://www.overleaf.com/project/5c00a7e979a7e34b62175f7c
 
 
 
