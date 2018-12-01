@@ -1,5 +1,7 @@
--- MySQL / SQL Server / Oracle / MS Access
-
+# File: songs.py
+# Author: Nicholas Ellis
+# Init date: 	11/29/2018
+# Last Updated: 12/01/2018
 
 CREATE TABLE song
 (
@@ -31,11 +33,11 @@ CREATE TABLE lyrics
 );
 
 
--- Load data into song table (Sid, Song, Artist)
+# Load data into song table (Sid, Song, Artist)
 COPY song(sid,song,artist) FROM '/Users/nickellis/Documents/Classes/CSCI_3700/Term Project/Data Files/song.csv' DELIMITER ',' CSV HEADER;
 
--- Load data into info table (Sid, Rank, Year, Source)
+# Load data into info table (Sid, Rank, Year, Source)
 COPY info(sid,rank,year,source) FROM '/Users/nickellis/Documents/Classes/CSCI_3700/Term Project/Data Files/info.csv' DELIMITER ',' CSV HEADER;
 
--- Load data into lyrics table (Sid, lyrics)
+# Load data into lyrics table (Sid, lyrics)
 COPY lyrics(sid,lyrics) FROM '/Users/nickellis/Documents/Classes/CSCI_3700/Term Project/Data Files/lyrics.csv' DELIMITER ',' CSV HEADER;
