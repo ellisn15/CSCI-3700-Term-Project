@@ -38,13 +38,19 @@ A record company needs a way to manage its music inventory.
 
 **What makes it data intensive?**
 
-It is data intensive because it handles huge amounts of data - namely songs. With songs constantly being added to the 
+It is data intensive because it handles huge amounts of data - namely songs. With songs constantly being added/removed from the database
 
-**Who is the sponser?**
+**Who is the sponser of this project?**
+
+A record company would be a possible sponsor for this project
 
 **Who are the end users?**
 
+The end users would be the record company since they will be the ones adding/removing songs from the database.
+
 **How will they benefit?**
+
+They will benefit from this because they can easily keep track of information on their songs.
 
 ## Identification and Documentation of Use-cases
 
