@@ -3,31 +3,31 @@
 
 CREATE TABLE song
 (
-	sid 	integer NOT NULL,					-- song id
-	sname 	character varying(35) NOT NULL,		-- song name
-	artist 	character varying(35) NOT NULL,		-- artist name
+	sid 	integer NOT NULL,                   -- song id
+	sname 	character varying(35) NOT NULL,     -- song name
+	artist 	character varying(35) NOT NULL,     -- artist name
 	
-	CONSTRAINT PK_SONG PRIMARY KEY(sid)			-- primary key made up of song id column
+	CONSTRAINT PK_SONG PRIMARY KEY(sid)         -- primary key made up of song id column
 );
 
 
 CREATE TABLE info
 (
-	sid 	integer NOT NULL,					-- song id
-	rank 	integer NOT NULL,					-- song rank
-	year 	integer NOT NULL,					-- song release year
-	source 	integer NOT NULL,					-- source
+	sid 	integer NOT NULL,                   -- song id
+	rank 	integer NOT NULL,                   -- song rank
+	year 	integer NOT NULL,                   -- song release year
+	source 	integer NOT NULL,                   -- source
 
-	CONSTRAINT PK_INFO PRIMARY KEY(sid)			-- primary key made up of song id column
+	CONSTRAINT PK_INFO PRIMARY KEY(sid)         -- primary key made up of song id column
 );
 
 
 CREATE TABLE lyrics
 (
-	sid 	integer NOT NULL,					-- song id
-	lyrics 	text    NOT NULL,					-- song lyrics
+	sid 	integer NOT NULL,                   -- song id
+	lyrics 	text    NOT NULL,                   -- song lyrics
 
-	CONSTRAINT PK_LYRICS PRIMARY KEY(sid) 		-- primary key made up of song id column
+	CONSTRAINT PK_LYRICS PRIMARY KEY(sid)       -- primary key made up of song id column
 );
 
 
