@@ -32,10 +32,10 @@ CREATE TABLE lyrics
 
 
 -- Load data into song table (Sid, Song, Artist)
-COPY song(Sid, Song, Artist) FROM '/Users/nickellis/Documents/Classes/CSCI_3700/Term Project/Data Files/song.csv' DELIMITER ',' CSV HEADER;
+COPY song(sid,song,artist) FROM '/Users/nickellis/Documents/Classes/CSCI_3700/Term Project/Data Files/song.csv' DELIMITER ',' CSV HEADER;
 
 -- Load data into info table (Sid, Rank, Year, Source)
-COPY info(Sid, Rank, Year, Source) FROM '/Users/nickellis/Documents/Classes/CSCI_3700/Term Project/Data Files/info.csv' DELIMITER ',' CSV HEADER;
+COPY info(sid,rank,year,source) FROM '/Users/nickellis/Documents/Classes/CSCI_3700/Term Project/Data Files/info.csv' DELIMITER ',' CSV HEADER;
 
 -- Load data into lyrics table (Sid, lyrics)
-COPY lyrics(Sid, Lyrics) FROM '/Users/nickellis/Documents/Classes/CSCI_3700/Term Project/Data Files/lyrics.csv' DELIMITER ',' CSV HEADER;
+COPY lyrics(sid,lyrics) FROM '/Users/nickellis/Documents/Classes/CSCI_3700/Term Project/Data Files/lyrics.csv' DELIMITER ',' CSV HEADER;
